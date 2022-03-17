@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/animation_nav_graph"
+    app:startDestination="@id/frameFragment">
+
+    <fragment
+        android:id="@+id/frameFragment"
+        android:name="com.example.assignmenttopsadvance.animation.FrameFragment"
+        android:label="fragment_frame"
+        tools:layout="@layout/fragment_frame" >
+        <action
+            android:id="@+id/action_frameFragment_to_lottieFragment"
+            app:destination="@id/lottieFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lottieFragment"
+        android:name="com.example.assignmenttopsadvance.animation.LottieFragment"
+        android:label="fragment_lottie"
+        tools:layout="@layout/fragment_lottie" >
+        <action
+            android:id="@+id/action_lottieFragment_to_tweenFragment"
+            app:destination="@id/tweenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tweenFragment"
+        android:name="com.example.assignmenttopsadvance.animation.TweenFragment"
+        android:label="fragment_tween"
+        tools:layout="@layout/fragment_tween" />
+</navigation>

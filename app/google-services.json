@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "919424935594",
+    "firebase_url": "https://tops-assignment-default-rtdb.firebaseio.com",
+    "project_id": "tops-assignment",
+    "storage_bucket": "tops-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919424935594:android:95a29d86c94534645d52d3",
+        "android_client_info": {
+          "package_name": "com.example.assignmenttopsadvance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919424935594-28pth4vjq11tn9bp9oqili1skg22bb7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIWybRKAVYWkNjQJZuhapI7sBWewotWl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919424935594-28pth4vjq11tn9bp9oqili1skg22bb7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

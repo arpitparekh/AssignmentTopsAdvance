@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AssignmentTopsAdvance</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_geo_coder">Map</string>
+    <string name="title_activity_find_places">Map</string>
+
+    <string name="access_token">sk.eyJ1IjoibWFwYm94Z2VvY29kaW5nIiwiYSI6ImNrcWUwbXF3bjFiamkydm92MWp1cXhnNjUifQ.HnSX67UoSD6zCW-laJKLDg</string>
+    <string name="title_activity_nearby_places">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

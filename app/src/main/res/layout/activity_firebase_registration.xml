@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firebase_login_register_displayDataList.FirebaseRegistrationActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtEmailFirebaseRegistration"
+        android:hint="Enter Email Address"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="30dp"
+        android:layout_marginTop="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtPasswordFirebaseRegistration"
+        android:hint="Enter Your Password"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="30dp"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegistration"
+        android:text="Register"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
